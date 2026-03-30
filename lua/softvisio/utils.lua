@@ -80,7 +80,7 @@ M = {
 
         -- vim.diagnostic.config( options, namespace )
 
-        if diagnostic == nil then
+        if diagnostic == nil or diagnostic == vim.NIL then
             vim.diagnostic.reset( namespace, bufnr )
         else
             for index, value in ipairs( diagnostic ) do
