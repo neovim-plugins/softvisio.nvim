@@ -83,8 +83,14 @@ M = {
         if diagnostic == nil or diagnostic == vim.NIL then
             vim.diagnostic.reset( namespace, bufnr )
         else
-            for index, value in ipairs( diagnostic ) do
-                value.severity = vim.diagnostic.severity[ value.severity ]
+            for index, row in ipairs( diagnostic ) do
+                for key, value in pairs( row ) do
+                    if value == vim.NIL then
+                        row[ key ] = nil
+                    end
+                end
+
+                row.severity = vim.diagnostic.severity[ row.severity ]
             end
 
             vim.diagnostic.set( namespace, bufnr, diagnostic )
