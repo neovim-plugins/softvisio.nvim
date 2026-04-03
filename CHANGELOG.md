@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.3 (2026-04-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix treesitter folds (● [be4a9a9](https://github.com/softvisio/softvisio.nvim/commit/be4a9a9); 👬 zdm)
+
+Compare with the previous release: [v1.1.2](https://github.com/softvisio/softvisio.nvim/compare/v1.1.2...v1.1.3)
+
 ### v1.1.2 (2026-04-03)
 
 **Bug fixes:**
