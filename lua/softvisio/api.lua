@@ -79,15 +79,8 @@ M = {
             local cursor_pos = vim.fn.getpos( "." )
 
             -- update buffer
-            for index, line in ipairs( lines ) do
-                local current_line = vim.api.nvim_buf_get_lines( bufnr, index - 1, index, false )[ 1 ]
-
-                if current_line ~= line then
-                    vim.api.nvim_buf_set_lines( bufnr, index - 1, index, false, { line } )
-                end
-            end
-
-            vim.api.nvim_buf_set_lines( bufnr, #lines, -1, false, {} )
+            vim.api.nvim_buf_set_lines( bufnr, 0, -1, false, {} )
+            vim.api.nvim_buf_set_lines( bufnr, 0, #lines, false, lines )
 
             -- restore cursor position
             vim.fn.setpos( ".", cursor_pos )
