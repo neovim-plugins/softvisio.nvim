@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.1.1 (2026-04-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix nil values in diagnostic (● [169b1a5](https://github.com/softvisio/softvisio.nvim/commit/169b1a5); 👬 zdm)
+
+- \[PATCH] fix: fix update folds (● [5202320](https://github.com/softvisio/softvisio.nvim/commit/5202320); 👬 zdm)
+
+Compare with the previous release: [v1.1.0](https://github.com/softvisio/softvisio.nvim/compare/v1.1.0...v1.1.1)
+
 ### v1.1.0 (2026-03-30)
 
 **New features:**
