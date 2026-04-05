@@ -90,7 +90,7 @@ M = {
 
             -- update folds
             vim.b[ bufnr ].folds_update_pending = false
-            require( "utils" ).update_folds( bufnr )
+            utils.update_folds( bufnr )
         end
 
         -- update diagnostics
