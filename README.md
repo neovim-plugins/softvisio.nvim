@@ -23,7 +23,7 @@ npm install --global @softvisio/cli
 ```lua
 return {
     {
-        "softvisio/softvisio.nvim",
+        "neovim-plugins/softvisio.nvim",
         tag = "latest",
         dependencies = {
             "nvim-telescope/telescope.nvim",
