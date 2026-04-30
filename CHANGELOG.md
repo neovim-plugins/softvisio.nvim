@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.7 (2026-04-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update deprecated api (● [3634009](https://github.com/neovim-plugins/softvisio.nvim/commit/3634009); 👬 zdm)
+
+Compare with the previous release: [v1.1.6...v1.1.7](https://github.com/neovim-plugins/softvisio.nvim/compare/v1.1.6...v1.1.7)
+
 ### v1.1.6 (2026-04-20)
 
 **Other changes:**
