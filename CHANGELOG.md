@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.8 (2026-05-01)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix method call (● [0b60261](https://github.com/neovim-plugins/softvisio.nvim/commit/0b60261); 👬 zdm)
+
+Compare with the previous release: [v1.1.7...v1.1.8](https://github.com/neovim-plugins/softvisio.nvim/compare/v1.1.7...v1.1.8)
+
 ### v1.1.7 (2026-04-30)
 
 **Bug fixes:**
